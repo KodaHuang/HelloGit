@@ -65,7 +65,7 @@ public class Menu extends JMenuBar implements ActionListener{
 	}
 
 	public void actionPerformed(ActionEvent arg0) {
-		Main obj = (Main)getParent().getParent().getParent();
+		Puzzle obj = (Puzzle)getParent().getParent().getParent();
 		String cmd = arg0.getActionCommand();
 		if (cmd.equals("Exit")){
 			System.exit(0);

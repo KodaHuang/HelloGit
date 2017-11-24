@@ -9,14 +9,14 @@ import javax.swing.JPanel;
 
 //import app.game.koda.BaseImg.ImgBlock;
 
-public class Main extends JDialog implements KeyListener{
+public class Puzzle extends JDialog implements KeyListener{
 	private static final long serialVersionUID = 1L;
 	BaseImg bImg = null;
 	JPanel panel = null;
 //	JMenuBar menuBar = null;
 	boolean moveAble = false;
 	
-	public Main(){
+	public Puzzle(){
 		super();
 		setTitle("Puzzle");
 		setResizable(false);
@@ -48,7 +48,7 @@ public class Main extends JDialog implements KeyListener{
 	}
 	
 	public static void main(String[] args){
-		new Main();
+		new Puzzle();
 	}
 	
 	public void keyPressed(KeyEvent arg0) {
