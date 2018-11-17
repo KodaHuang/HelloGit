@@ -23,7 +23,7 @@ public class Puzzle extends JDialog implements KeyListener{
 		setDefaultCloseOperation(DISPOSE_ON_CLOSE);
 		this.setJMenuBar(new Menu());
 		panel = new JPanel(null);
-		bImg = new BaseImg("image.jpg", 3, 3);
+		bImg = new BaseImg("image.jpg", 30, 30);
 		getContentPane().add(panel, BorderLayout.CENTER);
 		addKeyListener(this);
 		init();
